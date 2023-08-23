@@ -17,7 +17,7 @@ public class App {
 
         ProductService ps = new ProductService();
 
-        double sum  = ps.filteredSum(list);
+        double sum  = ps.filteredSum(list, p -> p.getName().toUpperCase().charAt(0) == 'T');
 
         System.out.println("Sum = "+ String.format("%.2f", sum));
     }
