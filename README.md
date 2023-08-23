@@ -1,0 +1,1 @@
+# criando_funcoes_que_recebem_funcoes_como_argumento
